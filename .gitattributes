@@ -1,0 +1,13 @@
+* text=auto
+*.png binary
+*.jpg binary
+*.pdf binary
+*.ttf binary
+*.docx binary
+*.pptx binary
+*.xlsx binary
+*.bin binary
+index.html -whitespace
+source/shell.html -whitespace
+assets/fonts/OFL.txt -whitespace
+vendor/** -whitespace

@@ -1,0 +1,11 @@
+Mode: built-in image_gen
+
+Use case: stylized-concept
+Asset type: one transparent pixel art UI skill icon for an existing tiny desktop witch assistant.
+Primary request: Two small cream parchment note sheets arranged diagonally, one at upper left and one at lower right. A single curved pale lavender magical thread visibly connects the two sheets, with one tiny four-point star at the midpoint. The concept must read immediately as “connect and understand the relationship between two pieces of content.”
+Input images: book_closed.png and seal.png are style references only. Match their crisp limited-palette old RPG inventory pixel art, not their subject.
+Style/medium: true low-resolution sprite aesthetic, hard square pixel edges and discrete block clusters, strong simple silhouette. Designed to remain legible at 32 to 40 pixels.
+Composition/framing: front-facing single centered isolated icon, subject occupies at least 75% of the square frame. The two notes should be separately readable and the connecting thread unobstructed.
+Color palette: limited cream, muted gray lavender, dark brown purple outlines. Gentle warm paper highlights, no glow haze.
+Scene/backdrop: genuinely transparent background, preserve alpha, no floor or shadow outside the icon.
+Constraints: no text, letters, digits, symbols on paper, no character, no wand, no constellation, no magic circle, no border or button enclosure, no watermark. One icon only.

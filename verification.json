@@ -1,0 +1,65 @@
+{
+  "version": "3.2-four-basics",
+  "date": "2026-10-17",
+  "entrypoints_identical": true,
+  "entrypoints": 2,
+  "bytes": 7034522,
+  "sha256": "6e36e41685b62550bd4bc55f60c85c47f2c511c1391f30a504e4c8b88d62d1b1",
+  "english_ui": true,
+  "pixel_font_embedded": true,
+  "os_and_documents_keep_standard_type": true,
+  "script_syntax": "passed",
+  "virtual_desktop": [
+    "move",
+    "resize",
+    "minimize",
+    "restore",
+    "maximize",
+    "close",
+    "dock",
+    "menus",
+    "show desktop",
+    "arrange"
+  ],
+  "internal_file_drag_to_cauldron": "verified",
+  "english_date_conflict": "verified",
+  "consent_and_familiar_result": "verified",
+  "grimoire_and_settings": "verified",
+  "document_reader_previous_verified": [
+    "txt",
+    "docx",
+    "pptx",
+    "xlsx",
+    "pdf"
+  ],
+  "browser_console_errors_after_final_reload": 0,
+  "verified_viewports": [
+    [
+      1064,
+      956
+    ],
+    [
+      760,
+      820
+    ]
+  ],
+  "qa": "passed",
+  "font_and_icon_licenses_embedded": true,
+  "basic_abilities": [
+    "Understand",
+    "Check",
+    "Create",
+    "Summon"
+  ],
+  "connection_proposal": "verified",
+  "watch_proposal": "verified",
+  "memory_proposal": "offered and declined",
+  "cross_document_proposal": "offered and declined",
+  "console_issues": 0,
+  "repository_packaging": {
+    "date": "2026-10-18",
+    "build_reproducible": true,
+    "embedded_script_syntax": "passed",
+    "prior_interaction_qa_date": "2026-10-17"
+  }
+}

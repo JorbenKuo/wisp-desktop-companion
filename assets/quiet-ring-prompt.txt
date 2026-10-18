@@ -1,0 +1,8 @@
+Generation mode: built-in image_gen__imagegen; transparent_background=true. Generated raster copied without altering alpha.
+
+Use case: stylized-concept
+Asset type: transparent pixel-art UI sprite for a tiny witch radial menu, final display 264 by 264 pixels.
+Primary request: Create a restrained, extremely minimal circular magic sigil seen perfectly face-on. Exactly ONE thin pale lavender-gray outer ring plus ONE incomplete inner arc made of only 3 widely separated segments. A maximum of four tiny pixel stars/dots at wide intervals on the rim. The center must remain completely empty and transparent, with more than 90 percent of the inner circular area blank. Circular, centered, square composition, ring near perimeter with generous safety margin.
+Style: rigorously crisp stepped pixel art, quiet old videogame interface, no anti-aliased blurred glow. Single low-saturation dusty lavender-gray palette, only minute cream highlights. Very thin lines, visually 1.5 to 2 pixels thick when scaled to 264 pixels; use approximately 6 to 8 pixel line thickness on a 1024 canvas.
+Background: true transparent alpha everywhere outside the linework and inside the ring.
+Avoid: NO gold, NO orange, NO cyan, NO saturated purple, NO gems, NO decorative borders, NO dense repeated motifs, NO runic band, NO complex glyphs, NO center emblem, NO text, NO character, NO smoke, NO shadows, NO glowing cloud, NO filled disk, NO extra circles. This asset is intentionally sparse and understated.

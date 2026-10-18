@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Wisp · A little magic, wherever you work</title><style>/*__STYLES__*/</style><script type="text/plain" id="bundled-licenses">/*__LICENSES__*/</script></head>
+<body>
+<header class="demo-bar os-menubar">
+  <div class="menu-left"><img class="system-mark" data-sprite="witch_idle" alt="Wisp"><strong id="focused-app">Pages</strong><button data-os-menu="file" aria-expanded="false">File</button><button data-os-menu="edit" aria-expanded="false">Edit</button><button data-os-menu="view" aria-expanded="false">View</button><button data-os-menu="window" aria-expanded="false">Window</button><button data-os-menu="help" aria-expanded="false">Help</button></div>
+  <div class="menu-status"><span class="demo-label">INTERACTIVE CONCEPT</span><img data-os-icon="wifi-high" alt="Wi-Fi"><img data-os-icon="battery-full" alt="Battery full"><span id="desktop-clock">Sat Oct 17&nbsp; 9:41 AM</span></div>
+</header>
+<div id="os-menu" class="os-menu" hidden></div>
+<main id="desktop">
+  <div class="desktop-files" aria-label="Desktop files"><button data-open-app="document" draggable="false"><img data-os-icon="file-doc" alt=""><span>Weekend event.docx</span></button><button data-open-app="reference" draggable="false"><img data-os-icon="envelope-simple" alt=""><span>Venue notes.docx</span></button><button data-open-app="table" draggable="false"><img data-os-icon="file-xls" alt=""><span>Event checklist.xlsx</span></button><button data-open-app="board" draggable="false"><img data-os-icon="squares-four" alt=""><span>Mistport.board</span></button></div>
+  <div class="desktop-watermark"><strong>Room for your next thought.</strong><span>YOUR APPS. YOUR FLOW. A LITTLE MAGIC.</span></div>
+  <section id="workspace" aria-label="Virtual desktop windows"></section>
+  <nav class="app-switcher desktop-dock" aria-label="Dock"><button data-app="document" aria-pressed="true" aria-label="Pages"><span class="dock-icon pages-icon"><img data-os-icon="file-doc" alt=""></span><span>Pages</span></button><button data-app="reference" aria-pressed="false" aria-label="Mail"><span class="dock-icon mail-icon"><img data-os-icon="envelope-simple" alt=""></span><span>Mail</span></button><button data-app="table" aria-pressed="false" aria-label="Sheets"><span class="dock-icon sheets-icon"><img data-os-icon="file-xls" alt=""></span><span>Sheets</span></button><button data-app="board" aria-pressed="false" aria-label="Canvas"><span class="dock-icon canvas-icon"><img data-os-icon="squares-four" alt=""></span><span>Canvas</span></button><span class="dock-divider"></span><button id="desktop-files-toggle" aria-label="Show desktop files"><span class="dock-icon files-icon"><img data-os-icon="folder" alt=""></span><span>Files</span></button></nav>
+  <div class="demo-hint"><img data-sprite="witch_idle" alt=""><span><strong>Wisp follows your cursor.</strong> Secondary-click anywhere for spells. <kbd>⌥ M</kbd> opens her grimoire.</span><button id="hide-desktop-hint" aria-label="Dismiss desktop hint"><img data-os-icon="x" alt=""></button></div>
+  <footer class="desktop-footer"><span id="save-state">Saved on this device</span><span>Simulated desktop · no system access · no live AI</span></footer>
+</main>
+<div id="magic-layer">
+  <div id="witch" aria-hidden="true"><img id="witch-sprite" data-sprite="witch_idle" alt=""><img class="waist-book" data-sprite="book_closed" alt=""><span id="witch-caption"></span></div>
+  <section id="skill-menu" hidden aria-label="Wisp spell circle"><img class="skill-sigil" data-sprite="quiet-ring" alt=""><img class="sigil-witch" data-sprite="witch_wand" alt=""><div class="menu-heading"><span>BASICS</span><kbd>Esc</kbd></div><div class="skill-grid"><button data-skill="understand"><img data-sprite="book_open" alt=""><strong>Understand</strong><small>Explain & summarize</small></button><button data-skill="check"><img data-sprite="seal" alt=""><strong>Check</strong><small>Find gaps & conflicts</small></button><button data-skill="create"><img data-sprite="pot_high" alt=""><strong>Create</strong><small>Ideas & first drafts</small></button><button data-skill="summon"><img data-sprite="bat_open" alt=""><strong>Summon</strong><small>Call a familiar</small></button></div><div class="menu-context" id="menu-context"></div></section>
+  <aside id="witch-proposal" class="floating-paper" aria-label="Wisp proposal" aria-live="polite" hidden></aside>
+  <section id="action-card" class="floating-paper" role="dialog" aria-label="Wisp suggestion" hidden></section>
+  <aside id="familiar-rail" aria-label="Background familiars" hidden><span class="rail-label">FAMILIARS</span><div id="familiar-marks"></div></aside>
+  <section id="task-card" class="floating-paper" role="dialog" aria-label="Familiar task" hidden></section>
+  <button id="furnace-anchor" hidden aria-label="Open Idea Cauldron"><img data-sprite="pot_low" alt=""><span>Idea Cauldron</span><small id="furnace-count">0</small></button>
+  <section id="furnace-panel" class="floating-paper" role="dialog" aria-label="Idea Cauldron" hidden></section>
+  <div id="flight-layer" aria-hidden="true"></div>
+</div>
+<input id="furnace-files" type="file" multiple hidden>
+<div id="file-drop-veil" hidden><img data-sprite="pot_high" alt=""><strong>Drop ingredients into the cauldron</strong><span>A document, a spreadsheet, a presentation or a piece of text</span></div>
+<aside id="onboarding" class="onboarding" aria-label="Demo walkthrough"><button id="dismiss-tour" class="close" aria-label="Dismiss walkthrough">×</button><span class="eyebrow">MEET YOUR CURSOR COMPANION</span><h1>Stay in your flow.<br>Leave a little to her.</h1><p>Wisp travels with your cursor, across your apps.<br>Secondary-click for four basic abilities.<br>She may also offer a little proposal.</p><button id="try-delegate" class="primary">Try Summon</button><button id="wait-idle" class="text-button">Just explore the desktop</button><small>Her guide and settings live in a little grimoire.<br>Press <kbd>⌥ M</kbd> to open it.</small></aside>
+<div id="book-overlay" hidden>
+  <section id="grimoire" role="dialog" aria-modal="true" aria-label="Wisp grimoire" tabindex="-1">
+    <img id="book-art" data-sprite="grimoire-spread" alt="" class="book-art">
+    <button id="close-book" class="book-close" aria-label="Close grimoire">Close <kbd>Esc</kbd></button>
+    <div class="book-content"><div class="book-page book-left"><div class="book-running-title">THE LITTLE GRIMOIRE</div><h2>Notes of a<br>little companion</h2><p class="book-subtitle">Learning your rhythm, a little at a time.</p><nav class="book-tabs" aria-label="Grimoire chapters"><button data-chapter="guide" aria-selected="true">Getting started</button><button data-chapter="tasks" aria-selected="false">Familiars <span id="book-task-count">0</span></button><button data-chapter="habits" aria-selected="false">About you</button><button data-chapter="settings" aria-selected="false">Settings</button></nav><div class="book-portrait"><img data-sprite="witch_book" alt="Wisp reading"><p id="book-side-note">Your words, your decisions.<br>My magic stays where you invite it.</p></div><span class="page-number">Ⅰ</span></div><div class="book-page book-right"><div id="chapter-content"></div><span class="page-number">Ⅱ</span></div></div>
+  </section>
+</div>
+<div id="toast" role="status" aria-live="polite" hidden></div>
+<div id="runtime-error" role="alert" hidden></div>
+<script>const SPRITES = /*__SPRITES__*/; const OS_ICONS = /*__OS_ICONS__*/; const DOCUMENT_VENDORS = /*__DOCUMENT_VENDORS__*/;</script><script>/*__DOCUMENT_SCRIPT__*/</script><script>/*__SCRIPT__*/</script>
+</body></html>
